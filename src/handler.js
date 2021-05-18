@@ -24,7 +24,6 @@ const addBookHandler = (req, h) => {
     updatedAt,
   };
   const isSuccess = true;
-  // const isSuccess = books.filter((book) => book.id === id).length > 0;
   if (isSuccess) {
     if (name !== undefined) {
       if (readPage <= pageCount) {
